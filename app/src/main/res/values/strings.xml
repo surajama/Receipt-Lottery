@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Taiwan Receipt Lottery</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="loginText">Login</string>
+    <string name="signInButtonText">Submit</string>
+    <string name="check_num">Check numbers</string>
+    <string name="title_activity_num_check">NumCheckActivity</string>
+    <string name="special_hint"><font size="13">Special Prize #</font></string>
+    <string name="grand_hint"><font size="13">Grand Prize #</font></string>
+    <string name="reg_hint"><font size="13">Regular Prize #</font></string>
+    <string name="extra_hint"><font size="13">Extra</font></string>
+    <string name="title_activity_results">ResultsActivity</string>
+</resources>

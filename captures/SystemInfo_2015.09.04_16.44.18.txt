@@ -1,0 +1,74 @@
+TASK com.example.suraj.test id=80
+  ACTIVITY com.example.suraj.test/.MainActivity 4edec31 pid=31054
+    Local Activity f3feb50 State:
+      mResumed=true mStopped=false mFinished=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 310mcc260mnc en_US ldltr sw360dp w360dp h568dp 480dpi nrml port finger -keyb/v/h -nav/h s.5}
+      mLoadersStarted=true
+      Active Fragments in 7c9c149:
+        #0: bottomFragment{141ba4e #0 id=0x7f08000f}
+          mFragmentId=#7f08000f mContainerId=#7f080000 mTag=null
+          mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+          mAdded=true mRemoving=false mResumed=true mFromLayout=true mInLayout=true
+          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+          mRetainInstance=false mRetaining=false mUserVisibleHint=true
+          mFragmentManager=FragmentManager{7c9c149 in HostCallbacks{614476f}}
+          mHost=android.app.Activity$HostCallbacks@614476f
+          mView=android.widget.RelativeLayout{3406c7c V.E...... ........ 48,1398-1032,1488 #7f08000f app:id/fragment}
+          Child FragmentManager{7642905 in bottomFragment{141ba4e}}:
+            FragmentManager misc state:
+              mHost=android.app.Activity$HostCallbacks@614476f
+              mContainer=android.app.Fragment$1@9032d5a
+              mParent=bottomFragment{141ba4e #0 id=0x7f08000f}
+              mCurState=5 mStateSaved=false mDestroyed=false
+      Added Fragments:
+        #0: bottomFragment{141ba4e #0 id=0x7f08000f}
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@614476f
+        mContainer=android.app.Activity$HostCallbacks@614476f
+        mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=13519899 (376 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{bc7eb8b V.E...... R....... 0,0-1080,1920}
+        com.android.internal.widget.ActionBarOverlayLayout{665d468 V.E...... ........ 0,0-1080,1776 #10203ae android:id/decor_content_parent}
+          android.widget.FrameLayout{835081 V.E...... ........ 0,240-1080,1776 #1020002 android:id/content}
+            android.widget.RelativeLayout{f36c526 V.E...... ........ 0,0-1080,1536 #7f080000 app:id/activity_main}
+              android.widget.GridLayout{bc7b567 V.E...... ........ 144,198-936,1398 #7f080001 app:id/gridLayout}
+                android.widget.Button{1f7cf14 VFED..C.. ........ 0,0-264,300 #7f080002 app:id/button}
+                android.widget.Button{51373bd VFED..C.. ........ 0,300-264,600 #7f080003 app:id/button4}
+                android.widget.Button{7ba0db2 VFED..C.. ........ 264,0-528,300 #7f080004 app:id/button2}
+                android.widget.Button{4104103 VFED..C.. ........ 528,0-792,300 #7f080005 app:id/button3}
+                android.widget.Button{a0cc880 VFED..C.. ........ 0,600-264,900 #7f080006 app:id/button7}
+                android.widget.Button{f888eb9 VFED..C.. ........ 264,300-528,600 #7f080007 app:id/button5}
+                android.widget.Button{4b752fe VFED..C.. ........ 528,300-792,600 #7f080008 app:id/button6}
+                android.widget.Button{bcbea5f VFED..C.. ........ 264,600-528,900 #7f080009 app:id/button8}
+                android.widget.Button{bb5ecac VFED..C.. ........ 528,600-792,900 #7f08000a app:id/button9}
+                android.widget.Button{39a5d75 VFED..C.. ........ 0,900-264,1200 #7f08000b app:id/button0}
+                android.widget.Button{eb1a10a VFED..CL. ........ 264,900-528,1200 #7f08000c app:id/backspace}
+                android.widget.Button{86ecd7b VFED..C.. ........ 528,900-792,1200 #7f08000d app:id/saveButton}
+              android.widget.TextView{1eb2798 VFED..CL. .F...... 90,48-990,208 #7f08000e app:id/number}
+              android.widget.RelativeLayout{3406c7c V.E...... ........ 48,1398-1032,1488 #7f08000f app:id/fragment}
+                android.widget.Button{ec05bf1 VFED..C.. ........ 0,0-984,90 #7f080016 app:id/check_num}
+          com.android.internal.widget.ActionBarContainer{150c3d6 V.ED..... ........ 0,72-1080,240 #10203af android:id/action_bar_container}
+            android.widget.Toolbar{892c657 V.E...... ........ 0,0-1080,168 #10203b0 android:id/action_bar}
+              android.widget.ActionMenuView{d372544 V.E...... ........ 960,0-1080,168}
+                android.widget.ActionMenuPresenter$OverflowMenuButton{46dc62d VFED..C.. ........ 0,12-120,156}
+              android.widget.TextView{8ed4762 V.ED..... ........ 48,43-164,124}
+            com.android.internal.widget.ActionBarContextView{9370f3 G.E...... ......I. 0,0-0,0 #10203b1 android:id/action_context_bar}
+        android.view.View{a2351b0 V.ED..... ........ 0,1776-1080,1920 #1020030 android:id/navigationBarBackground}
+        android.view.View{20d9829 V.ED..... ........ 0,0-1080,72 #102002f android:id/statusBarBackground}
+    Looper (main, tid 1) {cdc77ae}
+      Message 0: { when=+107ms callback=android.widget.Editor$Blink target=android.widget.Editor$Blink }
+      (Total messages: 1, polling=false, quitting=false)

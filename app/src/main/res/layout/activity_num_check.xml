@@ -1,0 +1,170 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.suraj.test.NumCheckActivity"
+    android:background="#0099CC"
+    android:id="@+id/relativeLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Enter Winning Numbers"
+        android:id="@+id/enterWinningText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:elegantTextHeight="true"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Numbers"
+        android:id="@+id/checkButton"
+        android:onClick="onClick"
+        android:layout_below="@+id/lastPrize2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete All Stored Numbers"
+        android:id="@+id/delAllButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="#f71c06"
+        android:alpha="0.7"
+        android:onClick="onClick" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/specialPrizeNum"
+        android:maxWidth="80dp"
+        android:background="#ffffff"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/enterWinningText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:gravity = "center_horizontal"
+        android:textColorHint="#5a5a5a"
+        android:hint="@string/special_hint" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/grandPrizeNum"
+        android:maxWidth="80dp"
+        android:background="#f4faff"
+        android:gravity = "center_horizontal"
+        android:layout_alignTop="@+id/specialPrizeNum"
+        android:layout_marginEnd="50dp"
+        android:layout_alignParentEnd="true"
+        android:textColorHint="#5a5a5a"
+        android:hint="@string/grand_hint"/>
+
+    <EditText
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/regPrize1"
+        android:maxWidth="90dp"
+        android:background="#fbfff9"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/specialPrizeNum"
+        android:layout_alignParentStart="true"
+        android:textColorHint="#5a5a5a"
+        android:gravity = "center_horizontal"
+        android:hint="@string/reg_hint"
+        android:layout_marginRight="10dp" />
+
+    <EditText
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/regPrize2"
+        android:maxWidth="80dp"
+        android:background="#fffff9"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/regPrize1"
+        android:layout_centerHorizontal="true"
+        android:gravity = "center_horizontal"
+        android:textColorHint="#5a5a5a"
+        android:hint="@string/reg_hint"/>
+
+    <EditText
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/regPrize3"
+        android:maxWidth="80dp"
+        android:background="#ffffff"
+        android:layout_alignTop="@+id/regPrize2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:textColorHint="#5a5a5a"
+        android:hint="@string/reg_hint"
+        android:gravity = "center_horizontal"
+        android:layout_marginLeft="10dp" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/lastPrize1"
+        android:maxWidth="80dp"
+        android:background="#ffffff"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/regPrize1"
+        android:layout_alignParentStart="true"
+        android:textColorHint="#5a5a5a"
+        android:gravity = "center_horizontal"
+        android:hint="@string/extra_hint"/>
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/lastPrize2"
+        android:maxWidth="80dp"
+        android:background="#ffffff"
+        android:layout_marginLeft="60dp"
+        android:layout_alignTop="@+id/lastPrize1"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="#5a5a5a"
+        android:gravity = "center_horizontal"
+        android:hint="@string/extra_hint"/>
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/lastPrize3"
+        android:maxWidth="80dp"
+        android:background="#ffffff"
+        android:layout_alignTop="@+id/lastPrize2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="60dp"
+        android:textColorHint="#5a5a5a"
+        android:gravity = "center_horizontal"
+        android:hint="@string/extra_hint"/>
+
+</RelativeLayout>
